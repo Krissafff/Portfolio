@@ -3,18 +3,12 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './css/style.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-
-import Contact from './Pages/Career';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-    <Switch>
-      <Route path="/" exact={true} component={App}/>
-      <Route path="/contato" exact={true} component={Contact}/>
-    </Switch>
-  </BrowserRouter>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
