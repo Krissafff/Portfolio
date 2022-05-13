@@ -26,14 +26,14 @@ export default function Carreira(){
 
             <div className="grid-6 card-habilidade mt-5" data-aos="fade-up">
                 <ul className="lista">
-                    <li className="linha">React.Js</li>
-                    <li className="linha mt-1">UI/UX DESIGN</li>
-                    <li className="linha mt-1">HTML/CSS</li>
-                    <li className="linha mt-1">React Native</li>
-                    <li className="linha mt-1">Sass</li>
-                    <li className="linha mt-1">Firebase</li>
-                    <li className="linha mt-1">JavaScript</li>
-                    <li className="linha mt-1">BootStrap</li>
+                    <li className="linha"><p>React.Js</p></li>
+                    <li className="linha mt-1"><p>UI/UX DESIGN</p></li>
+                    <li className="linha mt-1"><p>HTML/CSS</p></li>
+                    <li className="linha mt-1"><p>React Native</p></li>
+                    <li className="linha mt-1"><p>Sass</p></li>
+                    <li className="linha mt-1"><p>Firebase</p></li>
+                    <li className="linha mt-1"><p>JavaScript</p></li>
+                    <li className="linha mt-1"><p>BootStrap</p></li>
                 </ul>
             </div>
         </div>
