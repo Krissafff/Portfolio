@@ -21,7 +21,7 @@ export default function Carreira(){
                  aplicativos e UI designs.
               </p>
 
-                <a href="#Projeto" className="btn-secundary mt-4">Ver trabalho</a>
+                <a href="#Projeto" className="btn-secundary mt-4">Ver trabalhos</a>
             </div>
 
             <div className="grid-6 card-habilidade mt-5" data-aos="fade-up">

@@ -32,7 +32,7 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
     return(
         <Ul open={open}>
-            <li><a href="#" className='color-black linha'>Inicio</a></li>
+            <li><a href="#" className='color-black linha'>Início</a></li>
             <li><a href="#Sobre" className='color-black linha'>Sobre</a></li>
             <li><a href="#Projeto" className='color-black linha'>Projetos</a></li>
         </Ul>
