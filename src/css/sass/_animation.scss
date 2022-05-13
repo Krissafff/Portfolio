@@ -1,0 +1,131 @@
+$width-card: 340px;
+$height-card: 0.63 * $width-card;
+
+.div-card {
+  perspective: 300px;
+  
+  position: relative;
+}
+
+  
+@keyframes flip-card {
+    0% {
+      transform: rotateX(-10deg) rotateY(10deg) rotate(-15deg);
+    }
+  
+    40% {
+      transform: rotateX(0deg) rotateY(20deg);
+    }
+  
+    60% {
+      transform: rotateX(180deg) rotateY(20deg);
+    }
+  
+    100% {
+      transform: rotateX(190deg) rotateY(10deg) rotate(15deg);
+    }
+  }
+
+.icon-react {
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    border: 20px;
+    width: 15%;
+
+  
+    z-index: 200;
+  
+    animation: icons-home 7s ease 0.5s infinite alternate;
+  }
+  
+  .icon-github {
+    position: absolute;
+    top: 480px;
+    left: 320px;
+    width: 15%;
+
+
+  
+    z-index: 200;
+  
+    @include responsive(s) {
+      top: 350px;
+      left: 120px;
+    }
+  
+    animation: icons-home 7s ease 1s infinite alternate;
+  }
+  
+  .icon-js {
+    position: absolute;
+    top: 330px;
+    right: 340px;
+    width: 15%;
+  
+    z-index: 200;
+  
+    @include responsive(s) {
+      top: 350px;
+      left: -100px;
+    }
+  
+    animation: icons-home 7s ease 2.5s infinite alternate;
+  }
+  
+  @keyframes icons-home {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    100% {
+      transform: translate3d(0, -40px, 0);
+    }
+  }
+  
+  .bg-home-letter-n {
+    stroke-width: 0;
+    animation: bg-hero-letter 12s ease 0s infinite alternate;
+  }
+  
+  .bg-home-letter-u {
+    stroke-width: 0;
+    animation: bg-hero-letter 12s ease 2s infinite alternate;
+  }
+  
+  @keyframes bg-hero-letter {
+    0% {
+      stroke-width: 0;
+      stroke-dasharray: 200 100;
+      stroke-dashoffset: 0;
+      transform: translate3d(30px, -50px, 0);
+    }
+  
+    40%,
+    100% {
+      stroke-width: 1;
+      stroke-dasharray: 400 5;
+      stroke-dashoffset: 200;
+      transform: translate3d(30px, -30px, 0);
+    }
+  }
+
+  @media screen and (max-width: 960px){
+    .icon-react {
+      width: 50px;
+    }
+
+    .icon-js {
+      width: 50px;
+      left: 10px;
+      top: 200px;
+    }
+
+    .icon-github {
+      width: 50px;
+      left: 180px;
+    }
+    
+  }
+
+  
