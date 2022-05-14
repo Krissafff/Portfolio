@@ -868,9 +868,6 @@ img {
 }
 
 @media only screen and (max-width: 750px) {
-  .tipo-projeto {
-    font-size: 62px !important;
-  }
   .img-projeto {
     width: 38%;
     height: 34%;

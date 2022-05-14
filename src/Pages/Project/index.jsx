@@ -27,9 +27,9 @@ export default function Project() {
     return(
         <div class="container">
         <div class="row">
-        <h1 class="color-gradient tipo-projeto" id="Projeto" data-aos="fade-left">Projetos</h1>
 
-        <div class="grid-8" data-aos="fade-up">
+        <div class="grid-8" >
+        <h1 class="color-gradient tipo-projeto" id="Projeto" >Projetos</h1>
 
           <a href="https://site-oficina-fortaleza.vercel.app/" target="_blank"><img src={pg1} alt="" class="img-projeto"/></a>
           <a href="https://sistema-de-chaamdos.vercel.app/dashboard" target="_blank"><img src={pg2} alt="" class="img-projeto"/></a>

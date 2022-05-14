@@ -25,9 +25,9 @@ export default function Home(){
         <div className="grid-6 mt-9">
          <div className="texto-principal" data-aos="fade-left">
             <h1 className="color-gradient titulo">Olá, Bem vindo!</h1>
-            <h5 className="color-black">Sou um Dev.Front-end alimentado por uma paixão de projetar produtos atraentes, tenho
-               um profundo desejo de me destacar e melhorar continuamente em meu trabalho. 
-               Saiba mais sobre minha jornada abaixo.</h5>
+            <h5 className="color-black">Sou um Dev.Front-end alimentado por uma paixão de projetar produtos atraentes e tenho
+               um profundo desejo de me destacar e melhorar continuamente em meu trabalho.<br/> 
+               <br/> Saiba mais sobre minha jornada abaixo!</h5>
         </div>
       </div>
 

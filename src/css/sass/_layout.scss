@@ -538,6 +538,11 @@ img {
   border: 0;
 }
 
+.tipo-projeto{
+ // background: linear-gradient(224.78deg, #ffb300 8.12%, #1d232b 92.21%);
+
+}
+
 .img-projeto{
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -588,9 +593,6 @@ img {
 
 @media only screen and (max-width: 750px) {
 
-  .tipo-projeto{
-   font-size: 62px !important;
-  }
 
   .img-projeto{
     width: 38%;

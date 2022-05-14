@@ -13,15 +13,15 @@ export default function Carreira(){
         <div className="row">
             <div className="grid-6" data-aos="fade-down">
               <h2 className="color-gradient" id="Sobre">Minha carreira...</h2>
-              <p>Sempre pronto para um novo desafio, trabalhei como desenvolvedor front-end na SanPaolo,
-                onde atuei na criação dos designs e dos códigos dos sites da empresa.
+              <p>   Sempre pronto para um novo desafio, trabalhei como desenvolvedor front-end na empresa de sorvetes SanPaolo,
+                onde atuei na criação dos designs e dos códigos dos sites da mesma.
                 A experiência adquirida nesse projeto me levou a ter mais agilidade na entrega das 
-                demandas, aprendendo a trabalhar sobre pressão com deadlines apertados.
-                 A partir daí, comecei a fazer projetos como free-lancer, desenvolvendo sites, 
+                demandas, aprendendo a trabalhar sob pressão com deadlines apertados.
+                <br/> A partir daí, comecei a fazer projetos como free-lancer, desenvolvendo sites, 
                  aplicativos e UI designs.
               </p>
 
-                <a href="#Projeto" className="btn-secundary mt-4">Ver trabalhos</a>
+                <a href="#Projeto" className="btn-secundary mt-4"><p>Ver trabalhos</p></a>
             </div>
 
             <div className="grid-6 card-habilidade mt-5" data-aos="fade-up">
